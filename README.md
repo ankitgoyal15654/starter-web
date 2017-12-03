@@ -11,4 +11,5 @@ Sample website with plenty of files for demos/dfjcdjhkcjkhsdjk
 trial jfvbfjbvbfbvvnmfnvkl trial
 
 #### extra data
-learning purpose
+learning purpose,ALL rights reserved
+
