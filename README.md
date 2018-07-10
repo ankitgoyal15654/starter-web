@@ -23,7 +23,8 @@ These instructions will get you a copy of the project up and running on your loc
 1.Install Mysql
 2.Install dev centre for cassandra from the link:
 ```
-https://downloads.datastax.com/datastax-ddc/
+https://downloads.datastax.com/datastax-ddc
+(datastax-ddc-64bit-3.9.0.msi)
 ```
 3.Create tables in given link:
 ```
@@ -137,4 +138,4 @@ This project is licensed under the (Need to added)
 
 ## Acknowledgments
 
-* To run this application ,First Setup API gateway and create all the tables with all the dependencies and software. 
+* To run this application ,First Setup API gateway and create all the tables with all the dependencies and software.
