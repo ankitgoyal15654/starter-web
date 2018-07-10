@@ -21,6 +21,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 1.Install Mysql
+
 2.Install dev centre for cassandra from the link:
 ```
 https://downloads.datastax.com/datastax-ddc
