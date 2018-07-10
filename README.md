@@ -1,4 +1,4 @@
-# Intellitrail
+# IntelliTrail
 
 This module is known as Intelligent Fleet Tracking system. Intellitrail is a web-based application that allow you to locate, monitor and manage your machine fleet. This is a kind of IOT device, which is configured to send different events of signal to MQTT. From MQTT data is flowing to MySQL and Cassandra through live data handler so that we can keep track of historical data. We expose required data using Flask API's integrated through AWS API gateway and is consumed by front-end who uses the data to populate tables or plot various graphs etc., to get various insights like machine usage, geo location of the device, machine shifts, low usage, High usage etc.
 
