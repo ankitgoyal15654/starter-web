@@ -4,7 +4,7 @@ This module is known as Intelligent Fleet Tracking system. Intellitrail is a web
 
 ## Getting Started
 
-1.clone the project
+1.Clone the project from gitlab
 ```
 git clone https://gitlab.diversey.com/digital/intellitrail/ioc-portal-data-intellitrail.git
 ```
@@ -20,9 +20,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-1.Install Mysql
+1.Install Mysql Community edition
 
-2.Install dev centre for cassandra from the link:
+2.Install Dev Centre for cassandra from the link:
 ```
 https://downloads.datastax.com/datastax-ddc
 (datastax-ddc-64bit-3.9.0.msi)
@@ -37,17 +37,17 @@ https://www.python.org/downloads/release/python-2713/
 ```
 5.Install all the libraries in given [file](https://gitlab.diversey.com/digital/intellitrail/ioc-portal-data-intellitrail/blob/master/Flask/requirements.txt)
 ```
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
             OR
 ```
-python -m pip -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 6.Run the cql server in path
 ```
 C:\Program Files\DataStax-DDC\apache-cassandra\bin
 ```
-run command
+run command in cmd:
 ```
 cassandra
 ```
@@ -69,7 +69,7 @@ In the result you will get
 
 * Debug mode: off/on
 ```
-Mean you all dependicies of software has installed
+It means your all dependencies and software has been installed.
 
 ### And coding style tests
 
@@ -127,7 +127,7 @@ http://34.253.12.236:8000
 
 * **Diversey**
 
-the list of contributors - need to added
+the list of contributors - need to be added
 
 ## License
 
@@ -135,8 +135,8 @@ The list of the license for given libraries and software is given in
 ```
 ioc-portal-data-intellitrail\Flask\license\license.txt
 ```
-This project is licensed under the (Need to added)
+This project is licensed under the (Need to be added)
 
 ## Acknowledgments
 
-* To run this application ,First Setup API gateway and create all the tables with all the dependencies and software.
+* To run this application ,First Setup AWS API gateway and create all the tables with all the dependencies and software.
