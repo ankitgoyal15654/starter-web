@@ -1,6 +1,6 @@
 # Intellitrail
 
-This module is known as Intelligent Fleet Tracking system. Intellitrail is a web-based application that allow you to locate, monitor and manage your machine fleet. This is a kind of IOT device, which were configured to send different types of signals to Aws IOT. From AWS IOT data are flowing to MySQL and then from MySQL we are sending data to Cassandra so that we can keep track of historical data also. . We expose these data using API gateway and Flask API integration and send it to our front-end team who plot various graphs to get various insights like machine usage, geo location of the device, machine shifts, low usage, High usage etc.
+This module is known as Intelligent Fleet Tracking system. Intellitrail is a web-based application that allow you to locate, monitor and manage your machine fleet. This is a kind of IOT device, which is configured to send different events of signal to MQTT. From MQTT data is flowing to MySQL and Cassandra through live data handler so that we can keep track of historical data. We expose required data using Flask API's integrated through AWS API gateway and is consumed by front-end who uses the data to populate tables or plot various graphs etc., to get various insights like machine usage, geo location of the device, machine shifts, low usage, High usage etc.
 
 ## Getting Started
 
@@ -8,8 +8,10 @@ This module is known as Intelligent Fleet Tracking system. Intellitrail is a web
 ```
 git clone https://gitlab.diversey.com/digital/intellitrail/ioc-portal-data-intellitrail.git
 ```
-2. go to ioc-portal-data-intellitrail\Flask
-3. Run app.py
+
+2.go to ioc-portal-data-intellitrail\Flask
+
+3.Run app.py
 ```
 python app.py
 ```
@@ -18,8 +20,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-1. Install Mysql
-2. Install dev centre for cassandra from the link:
+1.Install Mysql
+2.Install dev centre for cassandra from the link:
 ```
 https://downloads.datastax.com/datastax-ddc/
 ```
@@ -39,7 +41,7 @@ pip -r requirements.txt
 ```
 python -m pip -r requirements.txt
 ```
-6. Run the cql server in path
+6.Run the cql server in path
 ```
 C:\Program Files\DataStax-DDC\apache-cassandra\bin
 ```
@@ -47,7 +49,7 @@ run command
 ```
 cassandra
 ```
-7. Create tables in cassandra from given link:
+7.Create tables in cassandra from given link:
 ```
 https://docs.google.com/document/d/1A7zsQu_f7yjZ6yxGyst_ofNv1rmxzlOpYg5aza7Uuds
 ```
@@ -135,4 +137,4 @@ This project is licensed under the (Need to added)
 
 ## Acknowledgments
 
-* To run this application ,First Setup API gateway and create all the tables with all the dependencies and software .
+* To run this application ,First Setup API gateway and create all the tables with all the dependencies and software. 
